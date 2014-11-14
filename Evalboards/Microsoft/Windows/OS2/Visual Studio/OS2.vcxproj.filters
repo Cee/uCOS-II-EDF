@@ -1,0 +1,165 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="App">
+      <UniqueIdentifier>{aa996987-f53a-4ead-b8d6-f16266de0fa0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="BSP">
+      <UniqueIdentifier>{4e1ef834-c5f9-4146-9830-472358602b77}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="BSP\CPU">
+      <UniqueIdentifier>{495b49b5-49fa-4281-a3e4-6e9837571aef}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="uC/CPU">
+      <UniqueIdentifier>{73feb784-5a1e-493f-b48d-75338e7034a1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="uC/CPU\Win32">
+      <UniqueIdentifier>{d7bda8b8-9269-4d72-a153-11d4fa3650ec}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="uC/CPU\Win32\Visual Studio">
+      <UniqueIdentifier>{c6916dd8-2ab6-478f-9a4c-6cddb59d55b5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="uC/LIB">
+      <UniqueIdentifier>{4cd0d141-58a4-4e6d-beb7-3ed0eb28b1f3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="uCOS-II">
+      <UniqueIdentifier>{9ac049ac-2d43-4d9b-af0d-d806ce7adc1f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="uCOS-II\Source">
+      <UniqueIdentifier>{46337b30-27ba-4d15-93ba-c188c7d725da}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="uCOS-II\Ports">
+      <UniqueIdentifier>{7c53de4c-6bd9-47f6-a1b2-4f3eb41dccaf}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="uCOS-II\Ports\Win32">
+      <UniqueIdentifier>{c415c242-7330-4c06-ab7c-e925ecb126a7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="uCOS-II\Ports\Win32\Visual Studio">
+      <UniqueIdentifier>{d73d7a79-69f6-41ca-9ca6-880310e1b866}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\app.c">
+      <Filter>App</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\BSP\bsp.c">
+      <Filter>BSP</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\BSP\CPU\cpu_bsp.c">
+      <Filter>BSP\CPU</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\uCOS-II\Source\os_dbg_r.c">
+      <Filter>uCOS-II\Source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\uCOS-II\Source\os_flag.c">
+      <Filter>uCOS-II\Source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\uCOS-II\Source\os_mbox.c">
+      <Filter>uCOS-II\Source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\uCOS-II\Source\os_mem.c">
+      <Filter>uCOS-II\Source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\uCOS-II\Source\os_mutex.c">
+      <Filter>uCOS-II\Source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\uCOS-II\Source\os_q.c">
+      <Filter>uCOS-II\Source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\uCOS-II\Source\os_sem.c">
+      <Filter>uCOS-II\Source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\uCOS-II\Source\os_task.c">
+      <Filter>uCOS-II\Source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\uCOS-II\Source\os_time.c">
+      <Filter>uCOS-II\Source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\uCOS-II\Source\os_tmr.c">
+      <Filter>uCOS-II\Source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\uCOS-II\Source\os_core.c">
+      <Filter>uCOS-II\Source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\uCOS-II\Ports\Win32\Visual Studio\os_cpu_c.c">
+      <Filter>uCOS-II\Ports\Win32\Visual Studio</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\uC-LIB\lib_math.c">
+      <Filter>uC/LIB</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\uC-LIB\lib_mem.c">
+      <Filter>uC/LIB</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\uC-LIB\lib_str.c">
+      <Filter>uC/LIB</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\uC-LIB\lib_ascii.c">
+      <Filter>uC/LIB</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\uC-CPU\cpu_core.c">
+      <Filter>uC/CPU</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\uC-CPU\Win32\Visual Studio\cpu_c.c">
+      <Filter>uC/CPU\Win32\Visual Studio</Filter>
+    </ClCompile>
+    <ClCompile Include="..\app_hooks.c">
+      <Filter>App</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\app_cfg.h">
+      <Filter>App</Filter>
+    </ClInclude>
+    <ClInclude Include="..\cpu_cfg.h">
+      <Filter>App</Filter>
+    </ClInclude>
+    <ClInclude Include="..\includes.h">
+      <Filter>App</Filter>
+    </ClInclude>
+    <ClInclude Include="..\lib_cfg.h">
+      <Filter>App</Filter>
+    </ClInclude>
+    <ClInclude Include="..\os_cfg.h">
+      <Filter>App</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\BSP\bsp.h">
+      <Filter>BSP</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\uCOS-II\Source\ucos_ii.h">
+      <Filter>uCOS-II\Source</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\uCOS-II\Source\os.h">
+      <Filter>uCOS-II\Source</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\uCOS-II\Ports\Win32\Visual Studio\os_cpu.h">
+      <Filter>uCOS-II\Ports\Win32\Visual Studio</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\uC-LIB\lib_ascii.h">
+      <Filter>uC/LIB</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\uC-LIB\lib_def.h">
+      <Filter>uC/LIB</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\uC-LIB\lib_math.h">
+      <Filter>uC/LIB</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\uC-LIB\lib_mem.h">
+      <Filter>uC/LIB</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\uC-LIB\lib_str.h">
+      <Filter>uC/LIB</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\uC-CPU\cpu_cache.h">
+      <Filter>uC/CPU</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\uC-CPU\cpu_core.h">
+      <Filter>uC/CPU</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\uC-CPU\cpu_def.h">
+      <Filter>uC/CPU</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\uC-CPU\Win32\Visual Studio\cpu.h">
+      <Filter>uC/CPU\Win32\Visual Studio</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
